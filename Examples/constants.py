@@ -26,9 +26,11 @@ def get_output_file_path(file_path):
 
 sample_doc = get_sample_file_path("sample.doc")
 sample_docx = get_sample_file_path("sample.docx")
+sample_docx_protected = get_sample_file_path("sample_protected.docx")
 sample_docm = get_sample_file_path("sample.docm")
 sample_pptx = get_sample_file_path("sample.pptx")
 sample_xlsx = get_sample_file_path("sample.xlsx")
+sample_xlsx_protected = get_sample_file_path("sample_protected.xlsx")
 sample_vsdx = get_sample_file_path("sample.vsdx")
 sample_pdf = get_sample_file_path("sample.pdf")
 sample_simple_pdf = get_sample_file_path("sample_simple.pdf")

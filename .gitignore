@@ -162,4 +162,5 @@ cython_debug/
 #.idea/
 /*.bat
 /.vs
+/Examples/.vs
 /Examples/Output

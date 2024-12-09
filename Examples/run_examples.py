@@ -2,6 +2,9 @@ from quick_start import *
 from basic_usage import *
 from basic_usage.multiple_document_operations import *
 from basic_usage.multiple_document_operations.merge import *
+from basic_usage.security_operations import *
+from advanced_usage.loading import *
+from advanced_usage.loading.loading_documents_from_different_sources import *
 
 #from advanced_usage import *
 
@@ -25,7 +28,7 @@ if __name__ == '__main__':
     join_multiple_documents.run()
     join_pages_from_various_documents.run()
     join_pages_using_page_builder.run()
-    ## Merge
+    ### Merge
     merge_docx.run()
     merge_epub.run()
     merge_html.run()
@@ -38,4 +41,15 @@ if __name__ == '__main__':
     merge_xlsx.run()
     merge_zip.run()
     merge_png.run()
+    ### Security operations
+    add_document_password.run()
+    check_document_password_protection.run()
+    remove_document_password.run()
+    update_document_password.run()
     ## Advanced usage
+    ## Loading
+    load_password_protected_document.run()
+    ### Loading documents from different sources
+    load_documents_from_local_disk.run()
+    load_documents_from_stream.run()
+    load_documents_from_url.run()
