@@ -3,11 +3,11 @@ from basic_usage import *
 from basic_usage.multiple_document_operations import *
 from basic_usage.multiple_document_operations.merge import *
 from basic_usage.security_operations import *
+from basic_usage.single_document_operations import *
+from basic_usage.single_document_operations.extract_pages import *
+from basic_usage.single_document_operations.split_document import *
 from advanced_usage.loading import *
 from advanced_usage.loading.loading_documents_from_different_sources import *
-
-#from advanced_usage import *
-
 
 if __name__ == '__main__':
     ## Quick Start
@@ -46,6 +46,17 @@ if __name__ == '__main__':
     check_document_password_protection.run()
     remove_document_password.run()
     update_document_password.run()
+    ### Single document operations
+    change_page_orientation.run()
+    move_page.run()
+    remove_pages.run()
+    rotate_pages.run()
+    swap_pages.run()
+    ### Extract pages
+    extract_pages_by_numbers.run()
+    extract_pages_by_range.run()
+    ### Split document
+    split_to_multi_page_documents.run()
     ## Advanced usage
     ## Loading
     load_password_protected_document.run()
