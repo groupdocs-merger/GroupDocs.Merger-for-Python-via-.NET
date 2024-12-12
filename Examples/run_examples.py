@@ -6,6 +6,7 @@ from basic_usage.security_operations import *
 from basic_usage.single_document_operations import *
 from basic_usage.single_document_operations.extract_pages import *
 from basic_usage.single_document_operations.split_document import *
+from basic_usage.single_document_operations.split_text_file import *
 from advanced_usage.loading import *
 from advanced_usage.loading.loading_documents_from_different_sources import *
 
@@ -57,6 +58,12 @@ if __name__ == '__main__':
     extract_pages_by_range.run()
     ### Split document
     split_to_multi_page_documents.run()
+    split_to_single_pages.run()
+    split_to_single_pages_by_range.run()
+    split_to_single_pages_by_range_with_filter.run()
+    ### Split text file
+    split_to_line_ranges.run()
+    split_to_separate_lines.run()
     ## Advanced usage
     ## Loading
     load_password_protected_document.run()

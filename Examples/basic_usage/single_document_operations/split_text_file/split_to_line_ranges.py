@@ -4,14 +4,14 @@ import constants
 
 def run():
     print(f"----------------------------------------------------------------------------")
-    print(f"[Example Basic Usage] # SingleDocumentOperations # SplitToMultiPageDocuments")
+    print(f"[Example Basic Usage] # SingleDocumentOperations # SplitToLineRanges")
 
-    with gm.Merger(constants.sample_docx) as merger:
+    with gm.Merger(constants.sample_txt) as merger:
         print(f"Document info retrieved successfully")
-        filePathOut = "./Examples/Output/document_{0}.{1}"
-        splitMode = gm.domain.options.SplitMode.INTERVAL
-        splitOptions = gm.domain.options.SplitOptions(filePathOut, [3, 6], splitMode)
-        merger.split(splitOptions)
+        filePathOut = "./Examples/Output/text_{0}.{1}"
+        textSplitMode = gm.domain.options.TextSplitMode.INTERVAL
+        textSplitOptions = gm.domain.options.TextSplitOptions(filePathOut, textSplitMode, [3, 6])
+        merger.split(textSplitOptions)
         print(f"Source document was splitted successfully")
         print(f"Check output: {filePathOut}")
     
