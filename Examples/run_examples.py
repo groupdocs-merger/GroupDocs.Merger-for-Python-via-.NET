@@ -5,6 +5,7 @@ from basic_usage.multiple_document_operations.merge import *
 from basic_usage.security_operations import *
 from basic_usage.single_document_operations import *
 from basic_usage.single_document_operations.extract_pages import *
+from basic_usage.single_document_operations.import_document import *
 from basic_usage.single_document_operations.split_document import *
 from basic_usage.single_document_operations.split_text_file import *
 from advanced_usage.loading import *
@@ -56,6 +57,12 @@ if __name__ == '__main__':
     ### Extract pages
     extract_pages_by_numbers.run()
     extract_pages_by_range.run()
+    ### Import document
+    import_document_to_diagram.run()
+    import_document_to_pdf.run()
+    import_document_to_presentation.run()
+    import_document_to_spreadsheet.run()
+    import_document_to_word_processing.run()
     ### Split document
     split_to_multi_page_documents.run()
     split_to_single_pages.run()
