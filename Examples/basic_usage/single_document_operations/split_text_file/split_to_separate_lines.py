@@ -8,7 +8,7 @@ def run():
 
     with gm.Merger(constants.sample_txt) as merger:
         print(f"Document info retrieved successfully")
-        filePathOut = "./Examples/Output/line_{0}.{1}"
+        filePathOut = "./Output/line_{0}.{1}"
         textSplitOptions = gm.domain.options.TextSplitOptions(filePathOut, [3, 6])
         merger.split(textSplitOptions)
         print(f"Source document was splitted successfully")

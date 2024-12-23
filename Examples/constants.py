@@ -7,8 +7,8 @@ import platform
 import inspect
 
 license_path = "C:/Licenses/GroupDocs.Merger.Python_via_NET.lic"
-sample_path = "./Examples/Resources/SampleFiles/"
-output_path = "./Examples/Output/"
+sample_path = "./Resources/SampleFiles/"
+output_path = "./Output/"
 
 def get_sample_file_path(file_path):
     if platform.system() == 'Windows':

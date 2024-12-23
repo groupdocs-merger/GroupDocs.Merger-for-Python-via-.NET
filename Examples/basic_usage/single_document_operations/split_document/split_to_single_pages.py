@@ -8,7 +8,7 @@ def run():
 
     with gm.Merger(constants.sample_docx) as merger:
         print(f"Document info retrieved successfully")
-        filePathOut = "./Examples/Output/document_{0}.{1}"
+        filePathOut = "./Output/document_{0}.{1}"
         splitOptions = gm.domain.options.SplitOptions(filePathOut, [1, 3, 6])
         merger.split(splitOptions)
         print(f"Source document was splitted successfully")
