@@ -11,6 +11,7 @@ __all__ = [
     'merge_one',
     'merge_pdf',
     'merge_pptx',
+    'merge_pptm',
     'merge_txt',
     'merge_vsdx',
     'merge_xlsx',

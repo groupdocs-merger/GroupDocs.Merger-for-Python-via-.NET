@@ -4,7 +4,7 @@
 
 # Define package-level attributes if needed
 PACKAGE_NAME = "groupdocs_merger_examples_python"
-VERSION = "24.10"
+VERSION = "25.3"
 
 # This code will be executed when the package is imported
 print(f"{PACKAGE_NAME} package is imported. Version {VERSION}")
