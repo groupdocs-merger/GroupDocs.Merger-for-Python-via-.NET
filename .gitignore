@@ -97,5 +97,7 @@ Examples/**/*.txt
 Examples/**/output/
 Examples/**/content/
 Examples/**/images/*
+Examples/**/output.pdf
 !Examples/**/input*
 !Examples/**/*.py
+

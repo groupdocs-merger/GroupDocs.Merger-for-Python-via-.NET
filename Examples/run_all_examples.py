@@ -68,6 +68,8 @@ def run_example(base_dir, example_path):
         os.chdir(saved_cwd)
 
 examples = [
+    "product-overview/merge_pdf_documents.py",
+    "product-overview/merge_pdf_with_options.py",
     "getting-started/quick-start-guide/merge_two_documents.py",
     "getting-started/quick-start-guide/extract_pages_from_pdf.py",
     "getting-started/quick-start-guide/split_document_pages.py",
